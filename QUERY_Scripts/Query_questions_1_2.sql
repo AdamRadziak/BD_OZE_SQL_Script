@@ -10,5 +10,6 @@
   from Failures
   join Dev_Statuses on Dev_Statuses.IdFailure = Failures.IdFailure
   join Devices on Dev_Statuses.IdDeviceStatus = Devices.IdDeviceStatus
+  where Devices.Name = 'SLO123456'
 
 
